@@ -1,0 +1,13 @@
+yfinance_elt:
+  outputs:
+    dev:
+      account:  SFEDU02-LVB17920
+      database: PRATHMESH_1
+      password: Prathamesh@0550
+      role: TRAINING_ROLE
+      threads: 1
+      schema: analytics
+      type: snowflake
+      user: FOX
+      warehouse: FOX_QUERY_WH
+  target: dev

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: PRATHMESH_1
+    schema: RAW
+    description: "Raw landing schema from Airflow ETL"
+    tables:
+      - name: yfinance_daily_prices
+        identifier: YFINANCE_DAILY_PRICES
+        description: "Daily OHLCV per symbol from yfinance ETL"
